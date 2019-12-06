@@ -3,28 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uialertcontroller</string>
+	<string>didbecomeactive</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let alert = UIAlertController(title: &lt;#title#&gt;, message: &lt;#message#&gt;, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "", style: .default, handler: { (action) in
-              alert.dismiss(animated: &lt;#Bool#&gt;, completion: {
-                &lt;#code#&gt;
-              })
-    }))
-  
-    presentViewController(alert, animated: true, completion: nil)</string>
+	<string>NotificationCenter.default.addObserver(self, selector: #selector(&lt;#selector#&gt;), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3141D76F-5123-4B60-8D39-8AD76BF37BF4</string>
+	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Present a UIAlertController</string>
+	<string>UIApplicationDidBecomeActiveNotification observer snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - UIAlertController</string>
+	<string>Swift add DidBecomeActive notification observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

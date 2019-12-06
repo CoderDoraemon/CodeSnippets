@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>nslocalizedstring</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property(nonatomic, copy) &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;);</string>
+	<string>NSLocalizedString(&lt;#key#&gt;, comment: &lt;#comment#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B84470B1-B180-401B-8C53-43390D9124DA</string>
+	<string>F60D36B3-5FE0-4C44-92AD-E33658E5AF89</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>NSLocalizedString function snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Block</string>
+	<string>Swift NSLocalizedString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

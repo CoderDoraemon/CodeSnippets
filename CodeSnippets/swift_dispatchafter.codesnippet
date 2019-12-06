@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-sortarrayofstrings</string>
+	<string>dispatchafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#arrayOfStrings#&gt;.sorted { (a, b) -&gt; Bool in
-            let comparisonResult = a.compare(b, options: [], range: a.range(of: a), locale: Locale.current)
-            return comparisonResult == .orderedSame
-        }</string>
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(&lt;#seconds#&gt;)) {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B005E7A7-789D-43C2-873A-0DD8040EE2B8</string>
+	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift String Array locale-aware sorting</string>
+	<string>GCD dispatch_after snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift String Array locale-aware sorting</string>
+	<string>Swift dispatch_after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

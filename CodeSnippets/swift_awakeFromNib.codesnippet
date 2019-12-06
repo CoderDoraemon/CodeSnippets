@@ -3,25 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>awakeFromNib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property(nonatomic, copy) &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;);</string>
+	<string>override class func awakeFromNib() {
+        super.awakeFromNib()
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B84470B1-B180-401B-8C53-43390D9124DA</string>
+	<string>058A7261-AB51-4EEB-B51F-61B049A95359</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Block</string>
+	<string>Swift awakeFromNib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

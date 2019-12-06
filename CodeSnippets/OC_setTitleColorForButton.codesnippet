@@ -16,6 +16,8 @@
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>set UIButton Title Color</string>
 	<key>IDECodeSnippetUserSnippet</key>

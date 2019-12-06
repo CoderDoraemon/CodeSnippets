@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-forin</string>
+	<string>setTitleColorForButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; as [&lt;#Type#&gt;] {
-    
-}</string>
+	<string>&lt;#btn#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: &lt;#T##UIControl.State#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48C9EB7D-A166-4781-8DC8-6961B57BDC02</string>
+	<string>89DB94DB-A4C2-4825-AC69-A4308F6B82EA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>for-in loop that casts objects inline</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift for-in loop with casting</string>
+	<string>Swift UIButton 设置title颜色</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

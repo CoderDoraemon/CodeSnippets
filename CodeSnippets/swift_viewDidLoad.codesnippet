@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-didbecomeactive</string>
+	<string>viewDidLoad</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NotificationCenter.default.addObserver(self, selector: #selector(&lt;#selector#&gt;), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)</string>
+	<string>override func viewDidLoad() {
+        super.viewDidLoad()
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
+	<string>9CC17629-9D87-411B-BA74-A606D4103902</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UIApplicationDidBecomeActiveNotification observer snippet for Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift add DidBecomeActive notification observer</string>
+	<string>Swift viewDidLoad</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

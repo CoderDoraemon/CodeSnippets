@@ -3,26 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchasync</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.global(qos: .default).async {
-    &lt;#asynchronous work#&gt;
-    DispatchQueue.main.async {
-        &lt;#callback#&gt;
-    }
-}</string>
+	<string>[weak self] &lt;#value#&gt; in
+            guard let self = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>731C3867-9874-4559-8350-5F2B054A5AF9</string>
+	<string>B5FFB5B9-1B62-49B5-B1E1-0749BBE07D42</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_async snippet for Swift</string>
+	<string>weakify self in closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_async</string>
+	<string>Swift weakify self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

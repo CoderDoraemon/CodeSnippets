@@ -3,23 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchafter</string>
+	<string>uialertcontroller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(&lt;#seconds#&gt;)) {
-    
-}</string>
+	<string>let alert = UIAlertController(title: &lt;#title#&gt;, message: &lt;#message#&gt;, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "", style: .default, handler: { (action) in
+              alert.dismiss(animated: &lt;#Bool#&gt;, completion: {
+                &lt;#code#&gt;
+              })
+    }))
+  
+    presentViewController(alert, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
+	<string>3141D76F-5123-4B60-8D39-8AD76BF37BF4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_after snippet for Swift</string>
+	<string>Present a UIAlertController</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_after</string>
+	<string>Swift - UIAlertController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

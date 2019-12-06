@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>setTitleForButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property(nonatomic, copy) &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;);</string>
+	<string>&lt;#btn#&gt;.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B84470B1-B180-401B-8C53-43390D9124DA</string>
+	<string>BF47CBCB-4913-41AF-A4B7-4BA4B941F8F4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Block</string>
+	<string>Swift UIButton 设置title</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

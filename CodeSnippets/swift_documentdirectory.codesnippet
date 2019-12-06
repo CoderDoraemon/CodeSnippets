@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-weak</string>
+	<string>documentdirectory</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
-            guard let `self` = self else { return }</string>
+	<string>if let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first {
+		let documentsDirectoryURL = NSURL.fileURL(withPath: path)
+	}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B5FFB5B9-1B62-49B5-B1E1-0749BBE07D42</string>
+	<string>E3AE2218-F56E-45BE-909F-1EC5DE83F3AE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weakify self in closure</string>
+	<string>Document directory path snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift weakify self</string>
+	<string>Swift document directory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

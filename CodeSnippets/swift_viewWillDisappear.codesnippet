@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-singleton</string>
+	<string>viewWillDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let shared : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
+	<string>override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0964789-8FAA-4A94-8E5B-D5178137F102</string>
+	<string>DB0F767C-0DAB-44E0-A78D-61390E17875C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Singleton pattern for Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Singleton</string>
+	<string>Swift viewWillDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

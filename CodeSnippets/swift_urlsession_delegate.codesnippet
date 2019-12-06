@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>urlsession-delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property(nonatomic, copy) &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;);</string>
+	<string>let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
+let task = session.dataTask(with: &lt;#request#&gt;){ (data, response, error) in
+    &lt;#code#&gt;
+}
+task.resume()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B84470B1-B180-401B-8C53-43390D9124DA</string>
+	<string>B03099E0-1094-412E-BE86-5AC1BDB07315</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Swift HTTP Request With Delegate set</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Block</string>
+	<string>Swift URLSession With Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

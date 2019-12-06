@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-closureoptionaltypealias</string>
+	<string>setImageForButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias &lt;#ClosureName#&gt; = ((_ &lt;#arguments#&gt;: &lt;#type#&gt;) -&gt; &lt;#return value#&gt;)?</string>
+	<string>&lt;#btn#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: &lt;#T##UIControl.State#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1528A53D-69CA-4A12-908A-1F85A47A8644</string>
+	<string>B5F70412-EDB6-4D96-BA4C-504AC905AEC7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Optional closure typealiast with arguments and return value snippet for Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift optional closure typealias</string>
+	<string>Swift UIButton 设置图片</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

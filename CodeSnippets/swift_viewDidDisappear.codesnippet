@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchmain</string>
+	<string>viewDidDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.async(execute: { () -&gt; Void in
-    
-})</string>
+	<string>override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8847AF3-D9A6-40C6-9DC1-981DD1A1042A</string>
+	<string>48063E42-D353-40C0-871D-644537EF6F10</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_async on main queue snippet for Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_async on main queue</string>
+	<string>Swift viewDidDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

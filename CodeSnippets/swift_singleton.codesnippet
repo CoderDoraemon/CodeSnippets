@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#Description#&gt;
-@property(nonatomic, copy) &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;);</string>
+	<string>static let shared : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B84470B1-B180-401B-8C53-43390D9124DA</string>
+	<string>D0964789-8FAA-4A94-8E5B-D5178137F102</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Singleton pattern for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Block</string>
+	<string>Swift Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

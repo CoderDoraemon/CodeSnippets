@@ -3,26 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-urlsession-datatask</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let session = URLSession.shared
-let task = session.dataTask(with: &lt;#request#&gt;){ (data, response, error) in
-    &lt;#code#&gt;
-}
-task.resume()
-</string>
+	<string>// MARK: - &lt;#Section#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DCE70F58-6A51-4C26-AF88-2F646406A746</string>
+	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift Simple HTTP Request</string>
+	<string>Divider label for separating code into sections</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift URLSession DataTask</string>
+	<string>Swift Mark:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

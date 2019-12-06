@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-nslocalizedstring</string>
+	<string>layoutSubviews</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(&lt;#key#&gt;, comment: &lt;#comment#&gt;)</string>
+	<string>override func layoutSubviews() {
+        super.layoutSubviews()
+        &lt;#vlue#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F60D36B3-5FE0-4C44-92AD-E33658E5AF89</string>
+	<string>809C89BB-5770-4418-9ED1-6DFB93180A01</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSLocalizedString function snippet for Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift NSLocalizedString</string>
+	<string>Swift layoutSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

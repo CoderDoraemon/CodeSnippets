@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-urlsession-delegate</string>
+	<string>forin</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
-let task = session.dataTask(with: &lt;#request#&gt;){ (data, response, error) in
-    &lt;#code#&gt;
-}
-task.resume()
-</string>
+	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; as [&lt;#Type#&gt;] {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B03099E0-1094-412E-BE86-5AC1BDB07315</string>
+	<string>48C9EB7D-A166-4781-8DC8-6961B57BDC02</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift HTTP Request With Delegate set</string>
+	<string>for-in loop that casts objects inline</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift URLSession With Delegate</string>
+	<string>Swift for-in loop with casting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
